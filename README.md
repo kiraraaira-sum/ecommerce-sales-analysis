@@ -66,3 +66,19 @@ Customer analysis identified different spending levels, allowing customers to be
 
 5. **Data Visualization**
    - Created charts using Matplotlib to communicate key findings and business insights.
+
+## How to Run
+1. Clone this repository.
+2. Open the project folder in Visual Studio Code.
+3. Make sure Python is installed.
+4. Install the required libraries:
+
+```bash
+pip install pandas matplotlib numpy
+```
+
+5. Run the Python analysis script:
+
+```bash
+python "ecommerce data analysis.py"
+```
