@@ -23,7 +23,6 @@ The analysis was conducted using Python and SQL, with visualizations to communic
 - VS Code
 
 ## Key Findings
-
 ### 1. Electronics is the main revenue driver
 
 Electronics generated approximately ¥10.34 million in revenue, representing 40.39% of total revenue.
@@ -45,3 +44,25 @@ This represents an association in the observed data and does not establish causa
 ### 5. Customer spending varies significantly
 
 Customer analysis identified different spending levels, allowing customers to be grouped into Low Value, Medium Value, and High Value segments.
+
+## Methodology
+1. **Data Preparation**
+   - Loaded the e-commerce dataset using Pandas.
+   - Checked data types, missing values, and duplicate records.
+   - Reviewed descriptive statistics to identify potential data quality issues.
+
+2. **Exploratory Data Analysis**
+   - Analyzed revenue by category, product, city, and payment method.
+   - Examined monthly revenue trends.
+   - Evaluated the relationship between discount levels and transaction revenue.
+
+3. **SQL Analysis**
+   - Used SQLite to perform business-oriented queries.
+   - Analyzed total revenue, transaction volume, average order value, and customer spending.
+
+4. **Customer Segmentation**
+   - Grouped customers based on their total spending.
+   - Classified customers into Low Value, Medium Value, and High Value segments.
+
+5. **Data Visualization**
+   - Created charts using Matplotlib to communicate key findings and business insights.
