@@ -82,3 +82,6 @@ pip install pandas matplotlib numpy
 ```bash
 python "ecommerce data analysis.py"
 ```
+
+## Conclusion
+This project analyzes e-commerce sales and customer behavior using Python and SQL. The results show key revenue drivers, product performance, sales trends, and customer spending patterns.
